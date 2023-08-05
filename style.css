@@ -80,3 +80,9 @@ nav img{
     cursor: pointer;
     position: relative;
 }
+.hero_btn:hover{
+    /*display: inline-block;*/
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
