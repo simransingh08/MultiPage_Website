@@ -86,3 +86,33 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
+
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text_box h1{
+        font-size: 20px;
+    }
+    .nav_links ul li{
+        display: block;
+    }
+    .nav_links{
+        position: absolute;
+        background: #f44336;
+        top: 0%;
+        right: -200%;
+        height: 100vh;
+        width: 200px;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fa{
+        display: block;
+        color: #ffffff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
