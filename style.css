@@ -445,7 +445,9 @@ h3{
     margin-bottom: 30px;
 }
 .contact_col div{
+    width: 80%;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    align-items: center;
 }
