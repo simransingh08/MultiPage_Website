@@ -359,3 +359,45 @@ h3{
 .red_btn:hover{
     color: #ffffff;
 }
+
+/* Blog Page content */
+
+.blog_content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog_left{
+    flex-basis: 65%;
+}
+.blog_left img{
+    width: 100%;
+}
+.blog_left h1{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog_left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog_right{
+    flex-basis: 32%;
+}
+.blog_right h3{
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog_right div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
