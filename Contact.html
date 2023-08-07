@@ -60,11 +60,11 @@
                 </div>
             </div>
             <div class="contact_col">
-                <form action="">
-                    <input type="text" placeholder="Enter your name" required>
-                    <input type="email" placeholder="Enter your email" required>
-                    <input type="text" placeholder="Enter your Subject"required>
-                    <textarea rows="8" placeholder="Message" required></textarea>
+                <form action="Form_handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject"required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
                     <button type="submit" class="hero_btn red_btn">Send Message</button>
                 </form>
             </div>
