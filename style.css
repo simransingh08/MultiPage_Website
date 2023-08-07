@@ -426,3 +426,26 @@ h3{
         font-size: 16px;
     }
 }
+
+/* -------------- Contact us page --------------- */
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact_col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact_col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
